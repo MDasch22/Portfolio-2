@@ -161,32 +161,29 @@
 .about__bio .text-secondary {
   padding-bottom: 1rem;
 }
-
-.jobs {
+.about .jobs {
   width: 60vw;
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
-.jobs__job {
+.about .jobs__job {
   background-color: #414141;
   padding: 0.5em;
   border-bottom: 5px solid #961EE2;
 }
-.jobs__job h2, .jobs__job h3 {
+.about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem, 0;
 }
-.jobs__job h6 {
+.about .jobs__job h6 {
   margin: 0.3rem 0;
 }
-
-.social-icons {
+.about .social-icons {
   display: flex;
   flex-direction: column;
 }
-
-footer {
+.about footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
@@ -266,6 +263,26 @@ footer {
 }
 .projects footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+.contact {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.3)), url("../img/1-image.jpg") center top;
+  background-size: cover;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contact__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  font-size: 1.5rem;
 }
 
 body {
